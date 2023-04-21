@@ -14,6 +14,22 @@ I followed the following steps to complete the project:
 
 - **Results and Evaluation:** I included my results for all test images in my report and explained what I got. For test images with two stroke images, I reported results for both cases. I also compared results for different values of N, i.e., the number of clusters evolved in the foreground and background classes.
 
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+You will need to have Python 3.x installed on your machine. You can download the latest version of [Python](https://www.python.org/downloads/) here.
+</br>
+You will also need to have Anaconda on your machine. You can download the latest version of [Anaconda](https://www.anaconda.com/) here.
+
+### Installing
+Clone this repository onto your local machine.
+```
+git clone https://github.com/MuhammadAhmedSuhail/Image-Reconstruction-using-AI.git
+```
+## Running the Program
+To run the program, simply execute the juypter notebook and the segmented image will be produced:
+
 ## Results
 The results of the project were impressive. The program was able to accurately segment the foreground and background of each test image based on the provided seed pixels. The optimal value of N was found to be 64 for this particular task. I was able to achieve an accuracy of over 90% in all test cases.
 
